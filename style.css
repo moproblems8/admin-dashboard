@@ -61,6 +61,7 @@ table {
 
 .dashboard {
     display: flex;
+    gap: 5rem;
     flex-direction: column;
     justify-content: flex-start;
 
@@ -75,6 +76,16 @@ table {
 
 .dashboard .content-2 {
     margin-top: auto;
+}
+
+.dashboard .content-2 > *{
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.dashboard .content-1 > *{
+    border: 1px solid black;
+    padding: 1rem;
 }
 
 .navbar {

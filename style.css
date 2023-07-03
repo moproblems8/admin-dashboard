@@ -68,7 +68,6 @@ table {
     justify-content: flex-start;
 
     background: #06b6d4;
-    border: 2px solid rgb(133, 97, 97);
     grid-area: 1 / 1 / 9 / 4;
 }
 
@@ -120,7 +119,7 @@ table {
     align-items: center;
 }
 
-.navbar .search{
+.search{
     grid-area: 1 / 1 / 2 / 4;
     gap: 0.5rem;
 }
@@ -141,8 +140,13 @@ table {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.navbar .profile {
+.profile {
     grid-area: 1 / 7 / 2 / 11;
+    gap: 0.5rem;
+}
+
+.profile span {
+    margin-left: 1rem;
 }
 
 .navbar .buttons {
@@ -153,6 +157,8 @@ table {
 .navbar img {
     max-height: 45px;
 }
+
+
 /* navbar end */
 
 
@@ -165,7 +171,7 @@ table {
 }
 /* main content end */
 
-/* outside content */
+/* sourced content */
 .button-1 {
   background-color: #EA4C89;
   border-radius: 8px;

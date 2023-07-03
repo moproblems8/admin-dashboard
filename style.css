@@ -67,7 +67,7 @@ table {
     flex-direction: column;
     justify-content: flex-start;
 
-    background: #06b6d4;
+    background: #EA4C89;
     grid-area: 1 / 1 / 9 / 4;
 }
 
@@ -75,6 +75,10 @@ table {
     border: 1px solid rgb(195, 220, 9);
     display: flex;
     flex-direction: column;
+}
+
+.dashboard h1, span {
+    color: white;
 }
 
 .dashboard .content-2 {
@@ -87,7 +91,7 @@ table {
 }
 
 .dashboard > * > *:hover{
-    background: #22d3ee;
+    background: #f472b6;
     cursor: pointer;
 }
 
@@ -103,7 +107,7 @@ table {
 
 /* navbar start */
 .navbar {
-    background: #bebebe;
+    background: #312e81;
     grid-area: 1 / 4 / 2 / 21;
     overflow: auto;
 
@@ -125,6 +129,10 @@ table {
     padding-left: 1rem;
 }
 
+.search span{
+    cursor: pointer;
+}
+
 .search input[type="search"] {
     width: 300px; /* Adjust the width as desired */
     height: 40px; /* Adjust the height as desired */
@@ -144,10 +152,17 @@ table {
 .profile {
     grid-area: 1 / 7 / 2 / 11;
     gap: 0.5rem;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .profile span {
     margin-left: 3rem;
+    color: black;
+}
+
+.profile span:hover {
+    cursor: pointer;
 }
 
 .navbar .buttons {
@@ -177,7 +192,7 @@ table {
 .navbar-text {
     font-size: 1.5rem;
     font-weight: 500;
-    color: #000000;
+    color: #EA4C89;
 }
 
 
@@ -188,7 +203,7 @@ table {
 
 /* main content start */
 .main-content {
-    background: #a2064f;
+    background: #1e1b4b;
     grid-area: 2 / 4 / 9 / 21;
 }
 /* main content end */

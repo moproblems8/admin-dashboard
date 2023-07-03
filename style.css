@@ -69,7 +69,7 @@ table {
     grid-area: 1 / 4 / 2 / 21;
 }
 
-.content {
+.main-content {
     background: #a2064f;
     grid-area: 2 / 4 / 9 / 21;
 }

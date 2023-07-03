@@ -67,7 +67,7 @@ table {
     flex-direction: column;
     justify-content: flex-start;
 
-    background: #EA4C89;
+    background: #16a34a;
     grid-area: 1 / 1 / 9 / 4;
 }
 
@@ -91,7 +91,7 @@ table {
 }
 
 .dashboard > * > *:hover{
-    background: #f472b6;
+    background: #4338ca;
     cursor: pointer;
 }
 
@@ -192,7 +192,7 @@ table {
 .navbar-text {
     font-size: 1.5rem;
     font-weight: 500;
-    color: #EA4C89;
+    color: white;
 }
 
 .chart-logo {
@@ -214,6 +214,7 @@ table {
 .main-content {
     background: #1e1b4b;
     grid-area: 2 / 4 / 9 / 21;
+    overflow: auto;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -264,10 +265,16 @@ table {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.projects-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
 .card-title {
     font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin: 0.5rem;
 }
 
 .card-logos {
@@ -285,7 +292,7 @@ table {
 
 /* sourced content */
 .button-1 {
-  background-color: #EA4C89;
+  background-color: #16a34a;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -309,8 +316,4 @@ table {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-}
-
-.button-1:hover{
-  background-color: #F082AC;
 }

@@ -62,14 +62,19 @@ table {
 .dashboard {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 
     background: cyan;
+    border: 2px solid rgb(133, 97, 97);
     grid-area: 1 / 1 / 9 / 4;
 }
 
 .dashboard > * {
-
     border: 1px solid black;
+}
+
+.dashboard .content-2 {
+    margin-top: auto;
 }
 
 .navbar {

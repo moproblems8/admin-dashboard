@@ -122,7 +122,15 @@ table {
 
 .navbar .search{
     grid-area: 1 / 1 / 2 / 4;
+    gap: 0.5rem;
 }
+
+.search input[type="search"] {
+    width: 300px; /* Adjust the width as desired */
+    height: 40px; /* Adjust the height as desired */
+    padding: 0.5rem;
+    font-size: 16px;
+  }
 
 .navbar .profile {
     grid-area: 1 / 7 / 2 / 11;

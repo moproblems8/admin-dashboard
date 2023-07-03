@@ -90,6 +90,14 @@ table {
 
 .dashboard .title {
     padding: 1rem;
+    border: 2px solid black;
+}
+
+.icon-text-container {
+    display: inline-flex;
+    gap: 1rem;
+    align-items: center;
+    border: 1px solid black;
 }
 
 .navbar {

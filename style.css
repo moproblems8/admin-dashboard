@@ -60,8 +60,16 @@ table {
 }
 
 .dashboard {
+    display: flex;
+    flex-direction: column;
+
     background: cyan;
     grid-area: 1 / 1 / 9 / 4;
+}
+
+.dashboard > * {
+
+    border: 1px solid black;
 }
 
 .navbar {

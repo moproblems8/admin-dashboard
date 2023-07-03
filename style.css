@@ -104,7 +104,7 @@ table {
 
 /* navbar start */
 .navbar {
-    background: #22b811;
+    background: #bebebe;
     grid-area: 1 / 4 / 2 / 21;
     overflow: auto;
 
@@ -134,7 +134,12 @@ table {
     border: none;
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+}
+
+.search input[type="search"]:focus {
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
 
 .navbar .profile {
     grid-area: 1 / 7 / 2 / 11;

@@ -82,19 +82,9 @@ table {
     margin-top: auto;
 }
 
-.dashboard .content-1 > *{
+.dashboard > * > * {
     border: 1px solid black;
     padding: 1rem;
-}
-
-.dashboard .content-2 > *{
-    border: 1px solid black;
-    padding: 1rem;
-}
-
-.dashboard .title > * {
-    padding: 1rem;
-    border: 1px solid black;
 }
 
 .icon-text-container {

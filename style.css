@@ -62,6 +62,7 @@ table {
 .dashboard {
     display: flex;
     gap: 5rem;
+    overflow: scroll;
     flex-direction: column;
     justify-content: flex-start;
 

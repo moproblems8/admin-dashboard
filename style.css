@@ -67,7 +67,7 @@ table {
     flex-direction: column;
     justify-content: flex-start;
 
-    background: cyan;
+    background: #06b6d4;
     border: 2px solid rgb(133, 97, 97);
     grid-area: 1 / 1 / 9 / 4;
 }
@@ -85,6 +85,11 @@ table {
 .dashboard > * > * {
     border: 1px solid black;
     padding: 1rem;
+}
+
+.dashboard > * > *:hover{
+    background: #22d3ee;
+    cursor: pointer;
 }
 
 .icon-text-container {

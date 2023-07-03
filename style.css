@@ -101,7 +101,7 @@ table {
 .navbar {
     background: #22b811;
     grid-area: 1 / 4 / 2 / 21;
-    overflow: auto;
+    overflow: hidden;
 
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -126,6 +126,16 @@ table {
     grid-row: 1 / 2;
 }
 
+.navbar .buttons {
+    grid-column: 4 / 11;
+    grid-row: 2 / 3;
+}
+
+.buttons > * {
+    border: 1px solid rgb(9, 220, 220);
+    padding: 0.5rem;
+    margin-inline: 0.5rem;
+}
 .navbar img {
     max-width: 40px;
 }

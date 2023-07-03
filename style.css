@@ -88,6 +88,10 @@ table {
     padding: 1rem;
 }
 
+.dashboard .title {
+    padding: 1rem;
+}
+
 .navbar {
     background: #22b811;
     grid-area: 1 / 4 / 2 / 21;

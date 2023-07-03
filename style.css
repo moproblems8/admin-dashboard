@@ -195,10 +195,19 @@ table {
     color: #EA4C89;
 }
 
+.chart-logo {
+    grid-area: 2 / 5 / 3 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-logo span{
+    color: white;
+}
+
 
 /* navbar end */
-
-
 
 
 /* main content start */
@@ -207,6 +216,8 @@ table {
     grid-area: 2 / 4 / 9 / 21;
 }
 /* main content end */
+
+
 
 /* sourced content */
 .button-1 {

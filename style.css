@@ -236,7 +236,7 @@ table {
     border: 1px solid rgb(192, 219, 14);
 }
 
-.main-content h1 {
+.main-content h1, p {
     color: white;
 }
 
@@ -262,6 +262,12 @@ table {
     border-radius: 10px;
     background-color: #4338ca;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
 }
 
 .card-logos {

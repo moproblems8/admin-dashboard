@@ -101,6 +101,11 @@ table {
     align-items: center;
     border: 1px solid black;
 }
+
+ul {
+    list-style-type: disc;
+    color: white;
+}
 /* dashboard end */
 
 
@@ -322,6 +327,10 @@ table {
 
 .trending {
     margin-top: auto;
+}
+
+ul li {
+    padding: 0.5rem;
 }
 
 /* main content end */

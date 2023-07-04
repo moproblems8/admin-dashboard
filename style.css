@@ -269,12 +269,14 @@ table {
     font-size: 1.5rem;
     font-weight: 500;
     padding-left: 1rem;
+    text-align: center;
 }
 
 .card-title {
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0.5rem;
+    background-color: #16a34a;
 }
 
 .card-logos {
@@ -283,6 +285,14 @@ table {
     align-items: center;
     width: 100%;
     margin-top: auto;
+}
+
+.card-logos span:hover {
+    cursor: pointer;
+}
+
+.card-title:hover {
+    cursor: pointer;
 }
 
 
